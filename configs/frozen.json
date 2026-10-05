@@ -1,0 +1,18 @@
+{
+  "seed": 20261002,
+  "epochs": 20,
+  "steps_per_epoch": 152,
+  "batch_size": 9,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "input_size": 448,
+  "threshold": 0.5,
+  "layers": [
+    3,
+    6,
+    9,
+    12
+  ],
+  "sampler": "old_C1",
+  "draw_sha256": "457640139e657d7307b3f2124bf2dd78f25a1bc3eebf212d8a44773561e696e8"
+}

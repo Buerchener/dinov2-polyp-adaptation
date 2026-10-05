@@ -1,0 +1,55 @@
+{
+  "stage": "Phase 2.5 only",
+  "n": 128,
+  "seed": 20261005,
+  "sampling": "SHA256(seed:id) rank within center x positive/normal; 32/center, min(8,available) normal, remaining positive",
+  "pool_n": 970,
+  "subset_sha256": "08a49f7cadbf78f72bcbf74d8977e743ea6a993ef5d856b19936808bbcc36959",
+  "source_zip_sha256": "46e0b2eb5d97735cd3becb2936cbbe3a9151c1505a09b8d01f48c816739a5730",
+  "weight_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+  "source_manifest_sha256": "b3f684246774ff3bd624c009c4386d254e698abb2593998ebf4615b7a79a0fc7",
+  "crop_sha256": "ed39c0eaba33ffecf3408510692c3e5641dbe033086af20c2fa1d80722fee74e",
+  "layers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "feature_shape": [
+    12,
+    1024,
+    384
+  ],
+  "feature_dtype": "float16",
+  "computation_dtype": "float32",
+  "feature_norm": "timm get_intermediate_layers norm=True (final encoder LayerNorm applied at each block), CLS excluded",
+  "input": "original crop-boxes.json + unchanged geometry.prepare(side=448), bilinear letterbox mean RGB fill, ImageNet mean/std; deterministic view, seed=None, no augmentation",
+  "primary": "per-image feature-space biased Linear CKA across all 1024 patches, centered separately per image and layer; equal image mean; std ddof=1",
+  "sensitivity": "same cached features, only patches fully inside unpadded resized image; no new sample selection",
+  "validation": "not loaded for features, no validation CKA",
+  "cache_estimate_bytes": 1207959552,
+  "training": false,
+  "source_files": {
+    "runtime/models.py": "0a13df4bc932ff17e154b9ff5a4ad52df15f10c1197789a5bb0be171600b4fff",
+    "runtime/data_io.py": "b83df74329877f7078b5657ef0a2222fefd75f82fce9def1a1017b2898b8e8ee",
+    "runtime/geometry.py": "a7542f9ae56769259f6368cafbfd349861bb7e827031e937bb075a8427d88d4a",
+    "source_sampler.py": "a85020a9ac47624d405eb8cfa63952ba17a8e797024f4857d09837d4631b80a9"
+  },
+  "strata": {
+    "('C1', False)": 4,
+    "('C1', True)": 28,
+    "('C2', True)": 24,
+    "('C2', False)": 8,
+    "('C3', True)": 32,
+    "('C4', False)": 8,
+    "('C4', True)": 24
+  }
+}

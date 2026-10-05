@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "progress": {
+    "epoch": 4,
+    "step": 38,
+    "optimizer_updates": 646,
+    "boundary": "full_update"
+  },
+  "optimizer_entries": 19,
+  "rng_and_sampler_present": true
+}

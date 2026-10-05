@@ -1,0 +1,85 @@
+{
+  "A": {
+    "positive_count": 219,
+    "positive_image_mean_dice": 0.781703234052506,
+    "severe_count": 22,
+    "negative_count": 38,
+    "positive_area_strata": {
+      "small": {
+        "n": 101,
+        "mean_dice": 0.7300079475779355,
+        "severe": 15
+      },
+      "medium": {
+        "n": 90,
+        "mean_dice": 0.8169770702472732,
+        "severe": 6
+      },
+      "large": {
+        "n": 28,
+        "mean_dice": 0.8547953296383124,
+        "severe": 1
+      }
+    },
+    "negative_image_any_fp_rate": 0.5526315789473685,
+    "negative_image_mean_fp_fraction": 0.0054050330842863245,
+    "negative_sequence_groups": {
+      "seq6_neg": {
+        "n": 15,
+        "any_fp_rate": 0.6,
+        "fp_over_0p1pct_rate": 0.5333333333333333,
+        "mean_fp_fraction": 0.0046868569958847745
+      }
+    },
+    "negative_sequence_macro_over_0p1pct_rate": 0.5333333333333333,
+    "epoch": 20,
+    "empty_positive_predictions": 6,
+    "normal_any_pixel_fp_count": 21,
+    "normal_area_over_0p1pct_fp_count": 16
+  },
+  "B": {
+    "positive_count": 219,
+    "positive_image_mean_dice": 0.824340927138048,
+    "severe_count": 15,
+    "negative_count": 38,
+    "positive_area_strata": {
+      "small": {
+        "n": 101,
+        "mean_dice": 0.76886194733146,
+        "severe": 12
+      },
+      "medium": {
+        "n": 90,
+        "mean_dice": 0.8679099995166106,
+        "severe": 2
+      },
+      "large": {
+        "n": 28,
+        "mean_dice": 0.8844180859378596,
+        "severe": 1
+      }
+    },
+    "negative_image_any_fp_rate": 0.5,
+    "negative_image_mean_fp_fraction": 0.004061433716888126,
+    "negative_sequence_groups": {
+      "seq6_neg": {
+        "n": 15,
+        "any_fp_rate": 0.6,
+        "fp_over_0p1pct_rate": 0.4,
+        "mean_fp_fraction": 0.001327803497942387
+      }
+    },
+    "negative_sequence_macro_over_0p1pct_rate": 0.4,
+    "epoch": 20,
+    "empty_positive_predictions": 3,
+    "normal_any_pixel_fp_count": 19,
+    "normal_area_over_0p1pct_fp_count": 15
+  },
+  "B_minus_A_dice_percentage_points": 4.263769308554199,
+  "B_minus_A_normal_area_percentage_points": -0.13435993673981986,
+  "runtime_seconds": {
+    "A": 2703.2095012664795,
+    "B": 2701.0053708553314
+  },
+  "interpretation_scope": "single seed 20261002, internal validation, fixed epoch20; both trained fresh on matched Kaggle runtime"
+}

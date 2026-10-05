@@ -1,0 +1,1078 @@
+{
+  "groups": [
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "149"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "149"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "150"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "150"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "151"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "151"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "152"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "152"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "153"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "153"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "154"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "154"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "155"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "155"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "156"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "156"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "157"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "157"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "158"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "158"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "159"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "159"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "160"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "160"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "161"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "161"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "162"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "162"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "163"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "163"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "164"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "164"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "165"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "165"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "166"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "166"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "167"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "167"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "168"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "168"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "169"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "169"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "170"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "170"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "171"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "171"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "172"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "172"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "173"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "173"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "174"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "174"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "175"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "175"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "176"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "176"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "177"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "177"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "178"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "178"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "179"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "179"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "180"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "180"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "181"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "181"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "182"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "182"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "183"
+        },
+        {
+          "dataset": "CVC-300",
+          "id": "198"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "183"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "198"
+        }
+      ],
+      "distinct_binary_masks": 2
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "184"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "184"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "185"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "185"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "186"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "186"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "187"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "187"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "188"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "188"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "189"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "189"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "190"
+        },
+        {
+          "dataset": "CVC-300",
+          "id": "203"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "190"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "203"
+        }
+      ],
+      "distinct_binary_masks": 2
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "191"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "191"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "192"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "192"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "193"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "193"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "194"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "194"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "195"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "195"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "196"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "196"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "197"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "197"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "199"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "199"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "200"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "200"
+        }
+      ],
+      "distinct_binary_masks": 2
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "201"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "201"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "202"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "202"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "204"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "204"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "205"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "205"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "206"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "206"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "207"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "207"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-300",
+          "id": "208"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "208"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "108"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "139"
+        }
+      ],
+      "distinct_binary_masks": 2
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "147"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "98"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "148"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "99"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "242"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "245"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "248"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "251"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "254"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "257"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "260"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "263"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "243"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "246"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "249"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "252"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "255"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "258"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "261"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "244"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "247"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "250"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "253"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "256"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "259"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "262"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "264"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "271"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "265"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "272"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "274"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "294"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "275"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "295"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "276"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "289"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "296"
+        }
+      ],
+      "distinct_binary_masks": 2
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "277"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "297"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "278"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "298"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "279"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "299"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "280"
+        },
+        {
+          "dataset": "CVC-ColonDB",
+          "id": "300"
+        }
+      ],
+      "distinct_binary_masks": 1
+    },
+    {
+      "ids": [
+        {
+          "dataset": "ETIS-LaribPolypDB",
+          "id": "127"
+        },
+        {
+          "dataset": "ETIS-LaribPolypDB",
+          "id": "131"
+        }
+      ],
+      "distinct_binary_masks": 2
+    },
+    {
+      "ids": [
+        {
+          "dataset": "ETIS-LaribPolypDB",
+          "id": "172"
+        },
+        {
+          "dataset": "ETIS-LaribPolypDB",
+          "id": "175"
+        }
+      ],
+      "distinct_binary_masks": 2
+    },
+    {
+      "ids": [
+        {
+          "dataset": "ETIS-LaribPolypDB",
+          "id": "20"
+        },
+        {
+          "dataset": "ETIS-LaribPolypDB",
+          "id": "22"
+        }
+      ],
+      "distinct_binary_masks": 2
+    }
+  ],
+  "groups_with_different_masks": 8,
+  "retained_all_standard_entries": true
+}

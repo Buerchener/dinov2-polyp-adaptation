@@ -1,0 +1,24 @@
+{
+  "files": {
+    "left_view_rule.py": "ba404e2b7096d7ef1ec114c90cdf65b470081adce077aee143a9ce5ed396083b",
+    "metrics.py": "0aa72a864c07bc10a5f5bc0c8266951ff12f34fe809ad395508c3b9f617feb42",
+    "train_entry.py": "d775075ec16fb689c3c4c2af255330a2c7b5b0fc74f1b7e373d3e3e84a74d06b",
+    "ablation_model.py": "522d84ce5d921f384b567c6656f1fbf357450a280e9a4decd8b185b419e66d5c",
+    "cka.py": "fdeb385545ae4bf5086bd34e39a1d07a74c0bc4a7f71e42b8be08ef1e3e77fff",
+    "rgb_view_rule.py": "6d925a0f0ff6773577b9afa1851b3ffddc610f74e95adc37e2dd036aeb9bfe34",
+    "models.py": "4d1b9fc54514e30ea4e249d2d1f97336e49544a0086ff092a05940d9340310bd",
+    "full_state.py": "23da25328fdcfbd31a8d9bcea0e442024f1d6535af904b2c3fa16c668df31357",
+    "hierarchical_model.py": "5eb3eafe32d7dbfd2b7c0522911bfe0dbd186dfa87cfbd82feee3c32af55f2a3",
+    "crop-boxes.json": "ed39c0eaba33ffecf3408510692c3e5641dbe033086af20c2fa1d80722fee74e",
+    "data_io.py": "63c4394dfec4234c20d03bccc301f27d12a5c4f8d954edfd79e31b33fd7d71bd",
+    "core.py": "a20d1f3a6304c9c862ee2e9ad9fbb46cc3eff3ce1814c8d6ea5c52eeecf76c00",
+    "combination_model.py": "041a654e20e0c2fb89265e30e0391fdcdf0ab0cbe8fcbf1b9e49b87fe5fd5032",
+    "ablation_metrics.py": "8239d91f433176183d7b8fb6436b64329729089f8ebac97b3411038224d8a5e0",
+    "geometry.py": "a7542f9ae56769259f6368cafbfd349861bb7e827031e937bb075a8427d88d4a",
+    "lastblock_model.py": "9b6c6171e4af4a0d9d7b55ee3fc7f38b8a224e02f84eb7d75da6cfe4b2907194",
+    "detail_model.py": "677dfaaa5a2782f55ce27388935686d70185d6ef49dcaaef67a7b3945ca32599",
+    "source_sampler.py": "a85020a9ac47624d405eb8cfa63952ba17a8e797024f4857d09837d4631b80a9",
+    "reports/audit-summary.json": "30d422e9b9d42f4ba43a80ca6b03b40f5511646184979cde4fb67819baba924b",
+    "reports/manifest.jsonl": "b3f684246774ff3bd624c009c4386d254e698abb2593998ebf4615b7a79a0fc7"
+  }
+}

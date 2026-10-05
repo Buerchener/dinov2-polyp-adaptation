@@ -1,0 +1,359 @@
+[
+  {
+    "file": "runtime/reports/manifest.jsonl",
+    "source": "generalization_study/dino-cka-fusion-phase3-autodl-v1/bundle/reports/manifest.jsonl",
+    "source_sha256": "b3f684246774ff3bd624c009c4386d254e698abb2593998ebf4615b7a79a0fc7",
+    "public_sha256": "b3f684246774ff3bd624c009c4386d254e698abb2593998ebf4615b7a79a0fc7",
+    "changed": false
+  },
+  {
+    "file": "runtime/reports/audit-summary.json",
+    "source": "generalization_study/dino-cka-fusion-phase3-autodl-v1/bundle/reports/audit-summary.json",
+    "source_sha256": "30d422e9b9d42f4ba43a80ca6b03b40f5511646184979cde4fb67819baba924b",
+    "public_sha256": "30d422e9b9d42f4ba43a80ca6b03b40f5511646184979cde4fb67819baba924b",
+    "changed": false
+  },
+  {
+    "file": "runtime/crop-boxes.json",
+    "source": "generalization_study/dino-cka-fusion-phase3-autodl-v1/bundle/crop-boxes.json",
+    "source_sha256": "ed39c0eaba33ffecf3408510692c3e5641dbe033086af20c2fa1d80722fee74e",
+    "public_sha256": "ed39c0eaba33ffecf3408510692c3e5641dbe033086af20c2fa1d80722fee74e",
+    "changed": false
+  },
+  {
+    "file": "runtime/source_sampler.py",
+    "source": "generalization_study/dino-cka-fusion-phase3-autodl-v1/bundle/source_sampler.py",
+    "source_sha256": "a85020a9ac47624d405eb8cfa63952ba17a8e797024f4857d09837d4631b80a9",
+    "public_sha256": "a85020a9ac47624d405eb8cfa63952ba17a8e797024f4857d09837d4631b80a9",
+    "changed": false
+  },
+  {
+    "file": "runtime/geometry.py",
+    "source": "generalization_study/dino-cka-fusion-phase3-autodl-v1/bundle/runtime/geometry.py",
+    "source_sha256": "a7542f9ae56769259f6368cafbfd349861bb7e827031e937bb075a8427d88d4a",
+    "public_sha256": "a7542f9ae56769259f6368cafbfd349861bb7e827031e937bb075a8427d88d4a",
+    "changed": false
+  },
+  {
+    "file": "runtime/data_io.py",
+    "source": "generalization_study/dino-cka-fusion-phase3-autodl-v1/bundle/runtime/data_io.py",
+    "source_sha256": "b83df74329877f7078b5657ef0a2222fefd75f82fce9def1a1017b2898b8e8ee",
+    "public_sha256": "63c4394dfec4234c20d03bccc301f27d12a5c4f8d954edfd79e31b33fd7d71bd",
+    "changed": true
+  },
+  {
+    "file": "runtime/models.py",
+    "source": "Phase6_external_generalization/src/models.py",
+    "source_sha256": "0a13df4bc932ff17e154b9ff5a4ad52df15f10c1197789a5bb0be171600b4fff",
+    "public_sha256": "4d1b9fc54514e30ea4e249d2d1f97336e49544a0086ff092a05940d9340310bd",
+    "changed": true
+  },
+  {
+    "file": "runtime/rgb_view_rule.py",
+    "source": "Phase6_external_generalization/src/rgb_view_rule.py",
+    "source_sha256": "2dc6edb4a8234d1ff9eee4a6357b69b459b442c35fa23eb6e238393c7e79a572",
+    "public_sha256": "6d925a0f0ff6773577b9afa1851b3ffddc610f74e95adc37e2dd036aeb9bfe34",
+    "changed": true
+  },
+  {
+    "file": "runtime/left_view_rule.py",
+    "source": "Phase6_external_generalization/src/left_view_rule.py",
+    "source_sha256": "d11e30430d4d03f777b074e4fea43a425b4d0e5bd4c354051f1279ad9c111271",
+    "public_sha256": "ba404e2b7096d7ef1ec114c90cdf65b470081adce077aee143a9ce5ed396083b",
+    "changed": true
+  },
+  {
+    "file": "runtime/metrics.py",
+    "source": "generalization_study/dino-cka-fusion-phase3-autodl-v1/bundle/runtime/pilot.py",
+    "source_sha256": "7dd0228fe89b218b3afba7cda111097dd57db70bd32f25b703267ffd47a633de",
+    "public_sha256": "0aa72a864c07bc10a5f5bc0c8266951ff12f34fe809ad395508c3b9f617feb42",
+    "changed": true
+  },
+  {
+    "file": "runtime/ablation_metrics.py",
+    "source": "generalization_study/phase4-spatial-detail-formal-v1/src/ablation_metrics.py",
+    "source_sha256": "1f94a4754f2f42f19e38ebb439f560d87ba628d83dd73b7c702098d2649af856",
+    "public_sha256": "8239d91f433176183d7b8fb6436b64329729089f8ebac97b3411038224d8a5e0",
+    "changed": true
+  },
+  {
+    "file": "runtime/ablation_model.py",
+    "source": "generalization_study/dino-layer-probing-phase2-kaggle/src/ablation_model.py",
+    "source_sha256": "522d84ce5d921f384b567c6656f1fbf357450a280e9a4decd8b185b419e66d5c",
+    "public_sha256": "522d84ce5d921f384b567c6656f1fbf357450a280e9a4decd8b185b419e66d5c",
+    "changed": false
+  },
+  {
+    "file": "runtime/combination_model.py",
+    "source": "generalization_study/dino-cka-fusion-phase3-autodl-v1/src/combination_model.py",
+    "source_sha256": "041a654e20e0c2fb89265e30e0391fdcdf0ab0cbe8fcbf1b9e49b87fe5fd5032",
+    "public_sha256": "041a654e20e0c2fb89265e30e0391fdcdf0ab0cbe8fcbf1b9e49b87fe5fd5032",
+    "changed": false
+  },
+  {
+    "file": "runtime/detail_model.py",
+    "source": "generalization_study/phase4-spatial-detail-formal-v1/src/detail_model.py",
+    "source_sha256": "677dfaaa5a2782f55ce27388935686d70185d6ef49dcaaef67a7b3945ca32599",
+    "public_sha256": "677dfaaa5a2782f55ce27388935686d70185d6ef49dcaaef67a7b3945ca32599",
+    "changed": false
+  },
+  {
+    "file": "runtime/lastblock_model.py",
+    "source": "generalization_study/phase5-lastblock-ft-v1/src/lastblock_model.py",
+    "source_sha256": "9b6c6171e4af4a0d9d7b55ee3fc7f38b8a224e02f84eb7d75da6cfe4b2907194",
+    "public_sha256": "9b6c6171e4af4a0d9d7b55ee3fc7f38b8a224e02f84eb7d75da6cfe4b2907194",
+    "changed": false
+  },
+  {
+    "file": "runtime/hierarchical_model.py",
+    "source": "Phase7_hierarchical_decoder/src/hierarchical_model.py",
+    "source_sha256": "5eb3eafe32d7dbfd2b7c0522911bfe0dbd186dfa87cfbd82feee3c32af55f2a3",
+    "public_sha256": "5eb3eafe32d7dbfd2b7c0522911bfe0dbd186dfa87cfbd82feee3c32af55f2a3",
+    "changed": false
+  },
+  {
+    "file": "runtime/core.py",
+    "source": "generalization_study/phase4-spatial-detail-formal-v1/src/core.py",
+    "source_sha256": "a20d1f3a6304c9c862ee2e9ad9fbb46cc3eff3ce1814c8d6ea5c52eeecf76c00",
+    "public_sha256": "a20d1f3a6304c9c862ee2e9ad9fbb46cc3eff3ce1814c8d6ea5c52eeecf76c00",
+    "changed": false
+  },
+  {
+    "file": "runtime/full_state.py",
+    "source": "generalization_study/phase4-spatial-detail-formal-v1/src/full_state.py",
+    "source_sha256": "23da25328fdcfbd31a8d9bcea0e442024f1d6535af904b2c3fa16c668df31357",
+    "public_sha256": "23da25328fdcfbd31a8d9bcea0e442024f1d6535af904b2c3fa16c668df31357",
+    "changed": false
+  },
+  {
+    "file": "runtime/train_entry.py",
+    "source": "generalization_study/phase4-spatial-detail-formal-v1/src/pilot_entry.py",
+    "source_sha256": "40bc4d05f99b87d5ec2024a5f34897f22ef785b9e5ea10a50fe201fd5c4ef7bc",
+    "public_sha256": "d775075ec16fb689c3c4c2af255330a2c7b5b0fc74f1b7e373d3e3e84a74d06b",
+    "changed": true
+  },
+  {
+    "file": "runtime/cka.py",
+    "source": "generalization_study/dino-cka-phase2p5-v1/src/run_cka.py",
+    "source_sha256": "6b2c402aa9b3239b21aa7997876c967dc6673db183a3019238ec1503c97297cd",
+    "public_sha256": "fdeb385545ae4bf5086bd34e39a1d07a74c0bc4a7f71e42b8be08ef1e3e77fff",
+    "changed": true
+  },
+  {
+    "file": "configs/cka/protocol.json",
+    "source": "generalization_study/dino-cka-phase2p5-v1/config/protocol.json",
+    "source_sha256": "7db9e33608094f294698aff24417effdf3ed16e740f614cbdb7c2473b3e79544",
+    "public_sha256": "7db9e33608094f294698aff24417effdf3ed16e740f614cbdb7c2473b3e79544",
+    "changed": false
+  },
+  {
+    "file": "configs/cka/subset.jsonl",
+    "source": "generalization_study/dino-cka-phase2p5-v1/config/subset.jsonl",
+    "source_sha256": "08a49f7cadbf78f72bcbf74d8977e743ea6a993ef5d856b19936808bbcc36959",
+    "public_sha256": "08a49f7cadbf78f72bcbf74d8977e743ea6a993ef5d856b19936808bbcc36959",
+    "changed": false
+  },
+  {
+    "file": "results/phase1_representation_ablation/comparison.json",
+    "source": "generalization_study/dino-feature-ablation-kaggle/results/verified/comparison.json",
+    "source_sha256": "de89c99a3d5343030a59959da777768bb1fca01ae5ea540c08ce8d1ddb171765",
+    "public_sha256": "de89c99a3d5343030a59959da777768bb1fca01ae5ea540c08ce8d1ddb171765",
+    "changed": false
+  },
+  {
+    "file": "results/phase2_layer_probing/five-arm-comparison.csv",
+    "source": "generalization_study/dino-layer-probing-phase2-kaggle/results/verified/five-arm-comparison.csv",
+    "source_sha256": "9eb779179bb62803faf4fd24c572c3901bf614bd148ffe3c92f0648fab214cfb",
+    "public_sha256": "c7c4453824fa42adb4a61641907deedea8235331d673fd235cd53dd1449adf35",
+    "changed": true
+  },
+  {
+    "file": "results/phase2_5_cka/cka-mean.csv",
+    "source": "generalization_study/dino-cka-phase2p5-v1/results/cka-mean.csv",
+    "source_sha256": "a501112cb6023e455f6a0036423bd266b8332f54e481655bcb8825aac93fbbeb",
+    "public_sha256": "428b28fab762adb540168ecb71ce5539013745595491809731acf5f345d88de0",
+    "changed": true
+  },
+  {
+    "file": "results/phase2_5_cka/cka-std.csv",
+    "source": "generalization_study/dino-cka-phase2p5-v1/results/cka-std.csv",
+    "source_sha256": "61154890432682817aa19dab74b39abf2ad4c7e3bd97f8a81d1a1f1e82754e6f",
+    "public_sha256": "41975b7ff1a637adc8c62f174757d6d1b0ed07e3e1e91a201e70a82c1dc2ede3",
+    "changed": true
+  },
+  {
+    "file": "results/phase2_5_cka/cka-valid-patches-mean.csv",
+    "source": "generalization_study/dino-cka-phase2p5-v1/results/cka-valid-patches-mean.csv",
+    "source_sha256": "b4d24363fdd18c5215e204da4c545e686a65f493b62ea78c2923eb18765e3371",
+    "public_sha256": "dcede5d9d2618a7d0b41b95d2229e5c97e7dc3170039dd7cd7869a0a48e4aac7",
+    "changed": true
+  },
+  {
+    "file": "results/phase2_5_cka/performance-and-cka.csv",
+    "source": "generalization_study/dino-cka-phase2p5-v1/results/performance-and-cka.csv",
+    "source_sha256": "76b36dfc14d3d4d374d3691bc9458dc26adccdf27bb277c2dfe95eca93074b04",
+    "public_sha256": "58eafc44f24c6041cc4fae37caff7cd4db018036afe05056fc49421d4a96974b",
+    "changed": true
+  },
+  {
+    "file": "results/phase3_layer_combinations/five-arm-comparison.csv",
+    "source": "generalization_study/dino-cka-fusion-phase3-autodl-v1/results/verified/five-arm-comparison.csv",
+    "source_sha256": "9b35075a102601c7ba0e0d774b9e1c5cc1d6dc2578e10a6b74a8af97cb35da76",
+    "public_sha256": "5bc92af9efa98aca89d8c69141a7bb88725b2605a3af78d4002c84557fee7ab9",
+    "changed": true
+  },
+  {
+    "file": "results/phase4_detailskip/comparison.csv",
+    "source": "generalization_study/phase4-spatial-detail-formal-v1/results/comparison.csv",
+    "source_sha256": "a8859ddae8cc0950cbcfc5e9005eea9a1a1c3675eaa6e5771ece77f617e8bd45",
+    "public_sha256": "303bbc07c64a56245d96043a7ad9f83552a41e5d9511ca1ede708594b9562131",
+    "changed": true
+  },
+  {
+    "file": "results/phase5_partial_finetuning/comparison.csv",
+    "source": "generalization_study/phase5-lastblock-ft-v1/results/comparison.csv",
+    "source_sha256": "9ad6f4eb1baf1f75d9b366a788470e915ba99c18bd5ca8829bc06d5cbd681e0a",
+    "public_sha256": "a53f936b9ba1d495211eab4d2276ecf5c43f7006c4931f69f5bb1b4e21fe55b3",
+    "changed": true
+  },
+  {
+    "file": "results/phase5_partial_finetuning/epoch-comparison.csv",
+    "source": "generalization_study/phase5-lastblock-ft-v1/results/epoch-comparison.csv",
+    "source_sha256": "c3818340d81b93a0a5e2f4fdf4a35774d1fcb9cf486ec666dfd78c9c769ccdda",
+    "public_sha256": "6c6a92eb8e76245e5fc33d3f18751b789292dd6742b1c84fe3b3f5a94b74668b",
+    "changed": true
+  },
+  {
+    "file": "results/phase5_5_threshold_analysis/Frozen-sweep.csv",
+    "source": "generalization_study/phase5.5-threshold-v1/analysis/Frozen-sweep.csv",
+    "source_sha256": "00f9019b28b171540520177e28fad193f2d6cea840ff060dd4bede25f7dfd99e",
+    "public_sha256": "7d05f2d0e8df925b4f856ee1ddddbe6307a2e4adea38c61252624f25d0b21633",
+    "changed": true
+  },
+  {
+    "file": "results/phase5_5_threshold_analysis/LastBlock_FT-sweep.csv",
+    "source": "generalization_study/phase5.5-threshold-v1/analysis/LastBlock_FT-sweep.csv",
+    "source_sha256": "f250968779ce3ecf3938057c878b1f770c00a0a20ede101513d1ef84d2d65101",
+    "public_sha256": "f2a1dae35de07277b11aba34f9ba73a3fa36f44aec24f2a53d14e90a7499b842",
+    "changed": true
+  },
+  {
+    "file": "results/phase5_5_threshold_analysis/matched-fp-budget.csv",
+    "source": "generalization_study/phase5.5-threshold-v1/analysis/matched-fp-budget.csv",
+    "source_sha256": "3d855012038e9a9b230c2bfaa3a7dea2c09725463864edccefbec6f52060da2b",
+    "public_sha256": "dffb789d69194b571d0f968707d720cd82996dbc82b4220bd1032c9059649c28",
+    "changed": true
+  },
+  {
+    "file": "configs/threshold-grid.json",
+    "source": "generalization_study/phase5.5-threshold-v1/config/grid.json",
+    "source_sha256": "b42118707b0e42f7c5b5e66b617eceb41eb2da7d987780491c29cd6726906045",
+    "public_sha256": "cecdee19a2460e15a324d33192a52371ff5d73bbbd9ea12ca1323061960b3588",
+    "changed": true
+  },
+  {
+    "file": "results/phase6_external_generalization/aggregate_comparison.csv",
+    "source": "Phase6_external_generalization/results/aggregate_comparison.csv",
+    "source_sha256": "38b197efa31ba990e097ddfa102e90f2b683ad84390fbccaa1af08268664640e",
+    "public_sha256": "654bd7e2cd4cd7ab685fa05dda9f0a4e6e1453866487b902a98ccb2f0f9f50c0",
+    "changed": true
+  },
+  {
+    "file": "results/phase6_external_generalization/CVC-ColonDB/summary.json",
+    "source": "Phase6_external_generalization/results/CVC-ColonDB/summary.json",
+    "source_sha256": "16045805a679373fcb9c988c47115ce1802d885b8dbcb26b7c93235732ac525d",
+    "public_sha256": "16045805a679373fcb9c988c47115ce1802d885b8dbcb26b7c93235732ac525d",
+    "changed": false
+  },
+  {
+    "file": "results/phase6_external_generalization/CVC-ColonDB/per-image.csv",
+    "source": "Phase6_external_generalization/results/CVC-ColonDB/per-image.csv",
+    "source_sha256": "a598e71d5cf959afc5b4ce816c921d0d0c697ff9e5d8e0d95dc918429d17d7fb",
+    "public_sha256": "2549fae102952653c39902273ac4b46bfa2d9c0cec446549dd252f3801612aa1",
+    "changed": true
+  },
+  {
+    "file": "configs/external/CVC-ColonDB.jsonl",
+    "source": "Phase6_external_generalization/manifests/CVC-ColonDB.jsonl",
+    "source_sha256": "1140d68c0eb7d87b129460c2b79dc8e377b252d8ef7b54f814eeadf17cab05a9",
+    "public_sha256": "1140d68c0eb7d87b129460c2b79dc8e377b252d8ef7b54f814eeadf17cab05a9",
+    "changed": false
+  },
+  {
+    "file": "results/phase6_external_generalization/ETIS-LaribPolypDB/summary.json",
+    "source": "Phase6_external_generalization/results/ETIS-LaribPolypDB/summary.json",
+    "source_sha256": "b2b619180a8d565c52befbd437aea5664fb9f9804eba622d4c53925996338742",
+    "public_sha256": "b2b619180a8d565c52befbd437aea5664fb9f9804eba622d4c53925996338742",
+    "changed": false
+  },
+  {
+    "file": "results/phase6_external_generalization/ETIS-LaribPolypDB/per-image.csv",
+    "source": "Phase6_external_generalization/results/ETIS-LaribPolypDB/per-image.csv",
+    "source_sha256": "2560544c5bf68c19984c9c6bc04db81897ac236da1ce2f605f5af02ed32bc8c5",
+    "public_sha256": "112c1f08415f6ca7b84d76fe0d3b58a79871ed35ff97cbb46905b500ae14b93f",
+    "changed": true
+  },
+  {
+    "file": "configs/external/ETIS-LaribPolypDB.jsonl",
+    "source": "Phase6_external_generalization/manifests/ETIS-LaribPolypDB.jsonl",
+    "source_sha256": "87636dc5edde8f7c1b68fd58a89f7d923136322b2859f56e4fb0f1cc9e57d29f",
+    "public_sha256": "87636dc5edde8f7c1b68fd58a89f7d923136322b2859f56e4fb0f1cc9e57d29f",
+    "changed": false
+  },
+  {
+    "file": "results/phase6_external_generalization/CVC-300/summary.json",
+    "source": "Phase6_external_generalization/results/CVC-300/summary.json",
+    "source_sha256": "5824c2533ed4f10621b58d2a187c2212a3c0ab8603b13ef7cabaf1d021d85bfa",
+    "public_sha256": "8fe9411f0c51b66c6f25ae6065e49adbee834edcad79a65843e6d9ee67386145",
+    "changed": true
+  },
+  {
+    "file": "results/phase6_external_generalization/CVC-300/per-image.csv",
+    "source": "Phase6_external_generalization/results/CVC-300/per-image.csv",
+    "source_sha256": "d6dc2e1ad3e5a8cb90bbc730cbb93e3a6e6ae5e9baba5e06f81e3336714b91ee",
+    "public_sha256": "d261d63be52f71dec94f484a526b7ab8e0319053e1db0ab7fff1a1a1a22f6fee",
+    "changed": true
+  },
+  {
+    "file": "configs/external/CVC-300.jsonl",
+    "source": "Phase6_external_generalization/manifests/CVC-300.jsonl",
+    "source_sha256": "f8fda4455bd8a1cd62035ece2a05e5264f3cfb4aff77cc3c4703b50ff719fd6d",
+    "public_sha256": "f8fda4455bd8a1cd62035ece2a05e5264f3cfb4aff77cc3c4703b50ff719fd6d",
+    "changed": false
+  },
+  {
+    "file": "results/phase6_external_generalization/cross-benchmark-overlap.json",
+    "source": "Phase6_external_generalization/audit/cross-benchmark-overlap.json",
+    "source_sha256": "488963e1d2fe45ae1d87ef15d4151222fb65840b9f45ea281d86f548166f6eed",
+    "public_sha256": "488963e1d2fe45ae1d87ef15d4151222fb65840b9f45ea281d86f548166f6eed",
+    "changed": false
+  },
+  {
+    "file": "results/phase6_external_generalization/unique-image-counts.json",
+    "source": "Phase6_external_generalization/audit/unique-image-counts.json",
+    "source_sha256": "b70b5be7439f3d08721730459b001ffec66085b49c1b0bdefbb57363278d0f00",
+    "public_sha256": "b70b5be7439f3d08721730459b001ffec66085b49c1b0bdefbb57363278d0f00",
+    "changed": false
+  },
+  {
+    "file": "results/phase6_external_generalization/duplicate-annotation-check.json",
+    "source": "Phase6_external_generalization/audit/duplicate-annotation-check.json",
+    "source_sha256": "37d2adfcba662a0e3fc97700006c5aa97c267cec1d27aa056569c0548ed34985",
+    "public_sha256": "37d2adfcba662a0e3fc97700006c5aa97c267cec1d27aa056569c0548ed34985",
+    "changed": false
+  },
+  {
+    "file": "results/phase7_hierarchical_decoder/partial-checkpoint-audit.json",
+    "source": "Phase7_hierarchical_decoder/audit/local-partial-checkpoint.json",
+    "source_sha256": "aa5bc09648365d47afb78ef7a2bd8a2272b19b65a674a266dca3eff0aa47645e",
+    "public_sha256": "aa5bc09648365d47afb78ef7a2bd8a2272b19b65a674a266dca3eff0aa47645e",
+    "changed": false
+  },
+  {
+    "file": "results/phase7_hierarchical_decoder/parameter-audit.json",
+    "source": "Phase7_hierarchical_decoder/audit/parameter-static-audit.json",
+    "source_sha256": "2cca2f5575229600a5d70ce05e87de839c18feccc7ad1056b5bf866a9503ea6c",
+    "public_sha256": "2cca2f5575229600a5d70ce05e87de839c18feccc7ad1056b5bf866a9503ea6c",
+    "changed": false
+  }
+]

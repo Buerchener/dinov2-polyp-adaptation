@@ -1,0 +1,14 @@
+{
+  "CVC-300": {
+    "entries": 60,
+    "unique_RGB_images": 58
+  },
+  "CVC-ColonDB": {
+    "entries": 380,
+    "unique_RGB_images": 346
+  },
+  "ETIS-LaribPolypDB": {
+    "entries": 196,
+    "unique_RGB_images": 193
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "dataset": "ETIS-LaribPolypDB",
+  "N": 196,
+  "Dice": 0.7070955502655072,
+  "IoU": 0.6213791032179006,
+  "severe_fail": 41,
+  "empty_pred": 18,
+  "area_strata": {
+    "small": {
+      "n": 141,
+      "Dice": 0.6599974544713887
+    },
+    "medium": {
+      "n": 49,
+      "Dice": 0.821336873878592
+    },
+    "large": {
+      "n": 6,
+      "Dice": 0.8809299919204262
+    }
+  },
+  "elapsed_seconds": 16.952539540827274,
+  "images_per_second": 11.561689593937695,
+  "gpu_forward_seconds": 1.5073047652840614,
+  "scope": "not independent: historically observed in this project and explicitly included in prior U-Net continue/stop gate. No direct DINO training use found. Report as exposed external benchmark.",
+  "normal_fp_generalization": false,
+  "cropped_images": 0,
+  "gt_crop_loss_images": 0
+}

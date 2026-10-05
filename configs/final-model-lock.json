@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "created_at": "2026-10-05T15:38:31.510998+00:00",
+  "status": "PUBLIC_METADATA_FROM_PRE_EXTERNAL_LOCK",
+  "encoder": "pretrained DINOv2 ViT-S/14; timm vit_small_patch14_dinov2.lvd142m",
+  "encoder_frozen": true,
+  "representation_layers": [
+    3,
+    6,
+    9,
+    12
+  ],
+  "decoder": "original DinoStudent four-depth Fusion; no DetailSkip",
+  "checkpoint": {
+    "file": "frozen-baseline-epoch20.pt",
+    "sha256": "ceb895039f9fccd58c4fb6d64c4628f993dcca62bc7f9e2f4e8629ec7bd5e75a",
+    "epoch": 20,
+    "selection": "Fixed formal Phase4 Baseline_Fusion, reused in Phase5"
+  },
+  "parameters": {
+    "total": 22523841,
+    "encoder": 22056192,
+    "head": 467649,
+    "inference_trainable": 0
+  },
+  "code_version": "Source file SHA256; project has no Git repository",
+  "code_sha256": {
+    "src/geometry.py": "a7542f9ae56769259f6368cafbfd349861bb7e827031e937bb075a8427d88d4a",
+    "src/left_view_rule.py": "d11e30430d4d03f777b074e4fea43a425b4d0e5bd4c354051f1279ad9c111271",
+    "src/models.py": "0a13df4bc932ff17e154b9ff5a4ad52df15f10c1197789a5bb0be171600b4fff",
+    "src/rgb_view_rule.py": "2dc6edb4a8234d1ff9eee4a6357b69b459b442c35fa23eb6e238393c7e79a572"
+  },
+  "preprocessing": {
+    "rgb": "Pillow RGB, [0,1]",
+    "crop": "Exact existing rgb_view_rule.screen followed by left_view_rule.candidate; RGB only; no GT or score; same rule for every dataset",
+    "input_size": [
+      448,
+      448
+    ],
+    "resize": "aspect preserving, round dimensions, Pillow BILINEAR",
+    "padding": "centered, RGB ImageNet mean [0.485,0.456,0.406]",
+    "normalization": {
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    },
+    "mask_resize": "NEAREST, binary >127 if maximum>1 else >0",
+    "restore": "remove padding; torch bilinear align_corners=False to cropped native size; paste to full native canvas with outside logits=-30",
+    "augmentation": false
+  },
+  "threshold": {
+    "probability": 0.5,
+    "operation": "restored native logits > 0, strict"
+  },
+  "precision": {
+    "dtype": "FP32",
+    "TF32": false,
+    "amp": false
+  },
+  "metrics": {
+    "Dice": "per-image 2*intersection/(prediction_pixels+GT_pixels), no smoothing; positive mean",
+    "IoU": "per-image intersection/union, no smoothing; positive mean",
+    "severe": "Dice < 0.5",
+    "empty": "prediction_pixels == 0",
+    "area_strata": "native GT/full native image: small <0.05, medium [0.05,0.20), large >=0.20",
+    "normal_frame_claim": false
+  },
+  "prohibited": [
+    "training",
+    "optimizer",
+    "backward",
+    "weight selection",
+    "threshold tuning",
+    "dataset-specific preprocessing",
+    "post-result lock edits"
+  ],
+  "cases": "Top 5 and bottom 5 by Dice, ties lexicographic ID; plus all severe and empty cases",
+  "internal_reference": {
+    "scope": "internal development validation, never external average",
+    "positive_n": 219,
+    "normal_n": 38,
+    "positive_dice": 0.827368,
+    "small_dice": 0.800398,
+    "severe": 17,
+    "empty": 3
+  },
+  "note": "Sanitized metadata export; original code hashes refer to pre-publication source, not the adapted CLI."
+}

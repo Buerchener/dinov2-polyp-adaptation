@@ -1,0 +1,13 @@
+layer,task_dice_percent,task_severe_219,task_normal_any_fp_38,representation_CKA_L9,representation_CKA_std,valid_patches_CKA_L9,performance_scope,similarity_scope
+L1,,,,0.7730278968811035,0.03379899263381958,0.7862682342529297,not measured,Phase 2.5 fixed training subset n128
+L2,,,,0.793269157409668,0.029400307685136795,0.7903941869735718,not measured,Phase 2.5 fixed training subset n128
+L3,67.46995829024664,44,34,0.8055316209793091,0.030485305935144424,0.8044002056121826,"Phase 2 fixed epoch20 internal validation, seed20261002",Phase 2.5 fixed training subset n128
+L4,,,,0.8492753505706787,0.019620919600129128,0.8395675420761108,not measured,Phase 2.5 fixed training subset n128
+L5,,,,0.8887522220611572,0.01706170104444027,0.8758624196052551,not measured,Phase 2.5 fixed training subset n128
+L6,77.31291911967017,28,16,0.9173108339309692,0.01064123585820198,0.9071935415267944,"Phase 2 fixed epoch20 internal validation, seed20261002",Phase 2.5 fixed training subset n128
+L7,,,,0.947282612323761,0.006218774244189262,0.9427889585494995,not measured,Phase 2.5 fixed training subset n128
+L8,,,,0.9574523568153381,0.00290800747461617,0.9617741107940674,not measured,Phase 2.5 fixed training subset n128
+L9,80.17932787560754,23,7,1.0,6.648241424045409e-08,1.0,"Phase 2 fixed epoch20 internal validation, seed20261002",Phase 2.5 fixed training subset n128
+L10,,,,0.963158369064331,0.0048082428984344006,0.9673137664794922,not measured,Phase 2.5 fixed training subset n128
+L11,,,,0.9125612378120422,0.009259459562599659,0.9313013553619385,not measured,Phase 2.5 fixed training subset n128
+L12,78.1703234052506,22,21,0.7677983045578003,0.034188609570264816,0.7904253005981445,"Phase 2 fixed epoch20 internal validation, seed20261002",Phase 2.5 fixed training subset n128

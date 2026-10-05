@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "baseline": 467649,
+  "proposed": 478465,
+  "total": 22534657,
+  "ratio": 0.021232406599310565,
+  "head_delta_pct": 2.3128457454201667,
+  "layers": [
+    3,
+    6,
+    9,
+    12
+  ],
+  "encoder_frozen": true,
+  "modules": {
+    "encoder": 22056192,
+    "projections": 123200,
+    "stage1": 226016,
+    "stage2": 101504,
+    "stage3": 27712,
+    "output": 33
+  }
+}

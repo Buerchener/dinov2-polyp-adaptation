@@ -1,0 +1,5 @@
+﻿Dataset,N,Dice,IoU,Severe_Fail,Empty_Pred,Small_Dice,Scope
+Internal PolypGen reference,219,0.827367516063881,0.7453785184266819,17,3,0.8003982432691593,internal development validation; 219 positive + 38 normal; excluded from external average
+CVC-ColonDB,380,0.7062587517332329,0.6193740171203937,78,32,0.6881291309120126,External; no prior project use found in local source/report audit; not proof of absence from foundation pretraining.
+ETIS-LaribPolypDB,196,0.7070955502655072,0.6213791032179006,41,18,0.6599974544713887,not independent: historically observed in this project and explicitly included in prior U-Net continue/stop gate. No direct DINO training use found. Report as exposed external benchmark.
+CVC-300,60,0.892462289205779,0.8184341018426978,1,0,0.8888987196755439,All 60 images overlap this ColonDB release; not an independent benchmark.

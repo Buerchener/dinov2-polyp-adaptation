@@ -1,0 +1,29 @@
+{
+  "dataset": "CVC-ColonDB",
+  "N": 380,
+  "Dice": 0.7062587517332329,
+  "IoU": 0.6193740171203937,
+  "severe_fail": 78,
+  "empty_pred": 32,
+  "area_strata": {
+    "small": {
+      "n": 227,
+      "Dice": 0.6881291309120126
+    },
+    "medium": {
+      "n": 119,
+      "Dice": 0.7998424971650074
+    },
+    "large": {
+      "n": 34,
+      "Dice": 0.49975752291075787
+    }
+  },
+  "elapsed_seconds": 16.946270145475864,
+  "images_per_second": 22.423813425483978,
+  "gpu_forward_seconds": 3.3603478968143463,
+  "scope": "External; no prior project use found in local source/report audit; not proof of absence from foundation pretraining.",
+  "normal_fp_generalization": false,
+  "cropped_images": 138,
+  "gt_crop_loss_images": 1
+}

@@ -1,0 +1,29 @@
+{
+  "dataset": "CVC-300",
+  "N": 60,
+  "Dice": 0.892462289205779,
+  "IoU": 0.8184341018426978,
+  "severe_fail": 1,
+  "empty_pred": 0,
+  "area_strata": {
+    "small": {
+      "n": 53,
+      "Dice": 0.8888987196755439
+    },
+    "medium": {
+      "n": 7,
+      "Dice": 0.9194436013632722
+    },
+    "large": {
+      "n": 0,
+      "Dice": null
+    }
+  },
+  "elapsed_seconds": 2.480223100632429,
+  "images_per_second": 24.191372132894283,
+  "gpu_forward_seconds": 0.4558916948735714,
+  "scope": "All 60 images overlap this ColonDB release; not independent external evidence.",
+  "normal_fp_generalization": false,
+  "cropped_images": 5,
+  "gt_crop_loss_images": 0
+}
