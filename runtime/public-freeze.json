@@ -19,6 +19,9 @@
     "detail_model.py": "677dfaaa5a2782f55ce27388935686d70185d6ef49dcaaef67a7b3945ca32599",
     "source_sampler.py": "a85020a9ac47624d405eb8cfa63952ba17a8e797024f4857d09837d4631b80a9",
     "reports/audit-summary.json": "30d422e9b9d42f4ba43a80ca6b03b40f5511646184979cde4fb67819baba924b",
-    "reports/manifest.jsonl": "b3f684246774ff3bd624c009c4386d254e698abb2593998ebf4615b7a79a0fc7"
+    "reports/manifest.jsonl": "b3f684246774ff3bd624c009c4386d254e698abb2593998ebf4615b7a79a0fc7",
+    "lora_model.py": "71634539e630c32917d4ac3c4470d5a3df8c274450d10ba1d0991c85e59b0966",
+    "lora_train_entry.py": "59c856cbd1bc71044e40b9463a1004d003e850fe30851e17b9f72e8a96f1caf7",
+    "micro_metrics.py": "fdfd17fce3bb586bc3231f1cd35107802e0563281018b69689c136d64a39b238"
   }
 }

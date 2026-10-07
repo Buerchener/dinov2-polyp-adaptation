@@ -29,3 +29,16 @@ runs/
 *.npy
 *.npz
 *.log
+
+# Machine, service and experiment-only files
+.ssh/
+*autodl*
+*authorization*
+*secret*
+wandb/
+*.zst
+*.7z
+*.h5
+*.hdf5
+*.onnx
+*.pem

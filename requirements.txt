@@ -1,4 +1,4 @@
-# Historical Phase 4/6 package versions; install the appropriate torch wheel for your device.
+# Historical Phase 4/6 and final LoRA package versions; install the appropriate torch wheel for your device.
 # GPU run used torch 2.8.0+cu128; this portable list does not force a CUDA platform.
 torch==2.8.0
 torchvision==0.23.0

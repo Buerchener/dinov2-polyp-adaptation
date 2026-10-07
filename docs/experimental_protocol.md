@@ -1,4 +1,6 @@
-# Experimental protocol
+# Historical frozen/FT experimental protocol
+
+For the final LoRA configuration and current positive-only Micro Dice contract, see [methodology](methodology.md). This document preserves the original frozen/FT protocol and historical macro metrics.
 
 ## Data and sampling
 

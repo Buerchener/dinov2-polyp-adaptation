@@ -1,0 +1,4 @@
+model,dataset,images,macro_dice_pct,caveat
+Frozen historical FT control,CVC-ColonDB,380,70.63,pretraining overlap unknown
+Frozen historical FT control,ETIS,196,70.71,previously exposed during development; not blind
+Frozen historical FT control,CVC-300,60,89.25,all 60 overlap ColonDB; not independent

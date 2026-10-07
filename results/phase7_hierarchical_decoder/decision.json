@@ -1,0 +1,14 @@
+{
+  "retain": false,
+  "gate": {
+    "overall_up": true,
+    "small_up": false,
+    "severe_down": true,
+    "empty_not_worse": true,
+    "normal_any_not_worse": false,
+    "normal_area_count_not_worse": false,
+    "normal_mean_not_worse": false
+  },
+  "overall_delta_pp": 0.5574251154919052,
+  "small_delta_pp": -1.2275077722762928
+}

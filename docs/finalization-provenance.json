@@ -1,0 +1,76 @@
+[
+  {
+    "source": "LOCO_center_generalization/recovered/aggregate/centerwise_results.csv",
+    "file": "results/loco_summary.csv",
+    "source_sha256": "23facee4950b122b28dfd129692165d6ab4087a92eba25105e4f8b2efbced1cf",
+    "public_sha256": "2073272b335b012d624f13ce697b91bc571871c12745526053b2dbcc3eb9a631"
+  },
+  {
+    "source": "LOCO_center_generalization/recovered/aggregate/macro_summary.json",
+    "file": "results/loco_aggregate.json",
+    "source_sha256": "9769f2117324d353d28ca789fea17d279a29fcd34cab4c827aa6cb6478b60ed6",
+    "public_sha256": "9769f2117324d353d28ca789fea17d279a29fcd34cab4c827aa6cb6478b60ed6"
+  },
+  {
+    "source": "InDomain_RandomSplit_Benchmark_v1/outputs/summary.json",
+    "file": "results/random_split_summary.json",
+    "source_sha256": "5349c8fb3cb40acb24600b29f3a5edb537576ecbb80c8b4d4dea91e05af8db48",
+    "public_sha256": "5349c8fb3cb40acb24600b29f3a5edb537576ecbb80c8b4d4dea91e05af8db48"
+  },
+  {
+    "source": "InDomain_RandomSplit_Benchmark_v1/outputs/summary.csv",
+    "file": "results/random_split_summary.csv",
+    "source_sha256": "e889151fc98c96167001c7e231e3e22e813a03e52e6291c83d981593d45d8fef",
+    "public_sha256": "258eebe17791ef62fb3e90360ae08394a0774fa0c86ff267aad684fe0d013888"
+  },
+  {
+    "source": "Phase7_hierarchical_decoder/results/comparison.csv",
+    "file": "results/phase7_hierarchical_decoder/comparison.csv",
+    "source_sha256": "f6084cba8b1da01e547257639327bc11bcc74b84cb5eebd1a241e726ccb939ed",
+    "public_sha256": "aedf83d5cff3e2b83b3ea4cc31ae3eb797fda14fa1e445d595d0d00cd952588e"
+  },
+  {
+    "source": "Phase7_hierarchical_decoder/results/decision.json",
+    "file": "results/phase7_hierarchical_decoder/decision.json",
+    "source_sha256": "7591473476f2601cf13a879cb34198f70df1f19d5438fc67d518e0b0b74eb63a",
+    "public_sha256": "2d0fc971d412cc8b00159f8091f298253cdedf36333f86b50596ee2e03026839"
+  },
+  {
+    "source": "Main_View_Preprocessing_Diagnostic/aggregate/centerwise_comparison.csv",
+    "file": "results/main_view_diagnostic.csv",
+    "source_sha256": "f169ec20f20687ba9f9578c81a960cbcf8bd798d580872d6e30e15243583b666",
+    "public_sha256": "b1e3cb9a6f121a8db4e287a2cedebb095e729c82790cb037ec77d5c3a3bfc597"
+  },
+  {
+    "source": "DINOv2_LoRA_LR5e5_v1/audit/final-comparison.json",
+    "file": "results/final/lora_selection_audit.json",
+    "source_sha256": "6bd8bbd76cacf7deac8df8ffef5eedbd9b04fd2c4447f66a401e4de44ae83c21",
+    "public_sha256": "6bd8bbd76cacf7deac8df8ffef5eedbd9b04fd2c4447f66a401e4de44ae83c21"
+  },
+  {
+    "source": "LOCO_center_generalization/bundle/manifest.jsonl",
+    "file": "configs/loco/manifest.jsonl",
+    "source_sha256": "2839676446877a2de3b7295ab62ee25c4024f59f104412ea668bbfabaee5891f",
+    "public_sha256": "2839676446877a2de3b7295ab62ee25c4024f59f104412ea668bbfabaee5891f"
+  },
+  {
+    "source": "LOCO_center_generalization/recovered/protocol.json",
+    "file": "configs/loco/protocol.json",
+    "source_sha256": "ada34b5431392e27702227f085c3daa6ea8a9a01f07b3fa619a33fac0fd746be",
+    "public_sha256": "ada34b5431392e27702227f085c3daa6ea8a9a01f07b3fa619a33fac0fd746be"
+  },
+  {
+    "source": "DINOv2_LoRA_LR5e5_v1/src/lora_model.py",
+    "file": "runtime/lora_model.py",
+    "source_sha256": "71634539e630c32917d4ac3c4470d5a3df8c274450d10ba1d0991c85e59b0966",
+    "public_sha256": "71634539e630c32917d4ac3c4470d5a3df8c274450d10ba1d0991c85e59b0966",
+    "changed": false
+  },
+  {
+    "source": "DINOv2_LoRA_LR5e5_v1/src/pilot_entry.py",
+    "file": "runtime/lora_train_entry.py",
+    "source_sha256": "a3c6c3f445298db9e9db180f0c7a13021d30cdb1a2f87509908e716a972bc291",
+    "public_sha256": "59c856cbd1bc71044e40b9463a1004d003e850fe30851e17b9f72e8a96f1caf7",
+    "changed": true
+  }
+]

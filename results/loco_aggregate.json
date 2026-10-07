@@ -1,0 +1,38 @@
+{
+  "primary": "center_equal_positive_segmentation",
+  "std_ddof": 1,
+  "all_six_epoch20_complete": true,
+  "center_equal_mean_dice": 0.757926704858086,
+  "std_dice": 0.09661451098408462,
+  "center_equal_mean_iou": 0.6694039039291959,
+  "std_iou": 0.10531313504882121,
+  "center_equal_severe_failure_rate": 0.1532730116108409,
+  "best_center": "C3",
+  "worst_center": "C4",
+  "best_center_dice": 0.8352797769254311,
+  "worst_center_dice": 0.5987762523957602,
+  "secondary_image_weighted": {
+    "N": 1518,
+    "N_positive": 1394,
+    "N_normal": 124,
+    "mean_dice": 0.7791442839014071,
+    "mean_iou": 0.6921167523882974,
+    "severe_failures": 179,
+    "severe_failure_rate": 0.1284074605451937,
+    "empty_predictions": 32,
+    "negative_any_pixel_fp": 0.7016129032258065,
+    "negative_area_fp_over_0p1pct": 0.6612903225806451,
+    "negative_mean_foreground_area": 0.04136113474754435,
+    "small_N": 676,
+    "small_dice": 0.7095939345169043,
+    "medium_N": 561,
+    "medium_dice": 0.8446805089129408,
+    "large_N": 157,
+    "large_dice": 0.8444322708597092
+  },
+  "limitations": [
+    "patient/video IDs unavailable; patient-disjoint independence unproven",
+    "all sequence frames excluded; seq5 official mapping unresolved",
+    "C5/C6 previously examined; robustness cross-validation, not sealed blind test"
+  ]
+}

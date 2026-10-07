@@ -1,0 +1,64 @@
+{
+  "status": "COMPLETE_LOCALLY_VERIFIED",
+  "metrics": {
+    "positive_count": 219,
+    "positive_image_mean_dice": 0.8484680067968134,
+    "severe_count": 16,
+    "negative_count": 38,
+    "positive_area_strata": {
+      "small": {
+        "n": 101,
+        "mean_dice": 0.8191756238619131,
+        "severe": 9
+      },
+      "medium": {
+        "n": 90,
+        "mean_dice": 0.8805589802161315,
+        "severe": 4
+      },
+      "large": {
+        "n": 28,
+        "mean_dice": 0.8509802592498951,
+        "severe": 3
+      }
+    },
+    "negative_image_any_fp_rate": 0.15789473684210525,
+    "negative_image_mean_fp_fraction": 0.005694653814138005,
+    "negative_sequence_groups": {
+      "seq6_neg": {
+        "n": 15,
+        "any_fp_rate": 0.06666666666666667,
+        "fp_over_0p1pct_rate": 0.0,
+        "mean_fp_fraction": 5.6584362139917696e-05
+      }
+    },
+    "negative_sequence_macro_over_0p1pct_rate": 0.0,
+    "epoch": 20,
+    "empty_positive_predictions": 7,
+    "normal_any_pixel_fp_count": 6,
+    "normal_area_over_0p1pct_fp_count": 3,
+    "positive_image_mean_iou": 0.7850905756764412,
+    "normal_area_over_0p1pct_fp_rate": 0.07894736842105263
+  },
+  "dice_delta_vs_frozen_pp": 2.903696603644512,
+  "dice_delta_vs_lora1e4_pp": -0.026890595459672095,
+  "fp_delta_vs_frozen": {
+    "negative_image_any_fp_rate": -0.21052631578947367,
+    "normal_area_over_0p1pct_fp_rate": -0.26315789473684215,
+    "negative_image_mean_fp_fraction": 0.002803170374919058
+  },
+  "fp_delta_vs_lora1e4": {
+    "negative_image_any_fp_rate": -0.10526315789473684,
+    "normal_area_over_0p1pct_fp_rate": -0.15789473684210525,
+    "negative_image_mean_fp_fraction": -0.0053836618875090425
+  },
+  "worth_next_step": false,
+  "trainable_parameters": 541377,
+  "lora_parameters": 73728,
+  "peak_allocated_bytes": 2523945472,
+  "mean_training_step_seconds": 0.3999547767529485,
+  "checkpoint_original_dino_unchanged": true,
+  "initialization_matches_v2": true,
+  "next_stage_executed": false,
+  "limitation": "Single-seed internal development evidence; old A/B reused as fixed references, not simultaneous repeated controls"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "candidate_files": 118,
+  "candidate_bytes": 3744607,
+  "largest_candidate_bytes": 1339502,
+  "current_findings": [],
+  "history_blob_count": 80,
+  "history_largest_blob_bytes": 1135093,
+  "history_findings": [],
+  "scope": "Tracked and nonignored candidate files; all reachable historical Git blobs. Author identities and configured origin URL are normal Git metadata, not exported credentials.",
+  "method": "Common credential/private-key/assignment/email/private-host/absolute-path patterns; 10MB file threshold; excluded binary types; relative Markdown links; UTF-8 checks. Pattern scans are not a proof of absence of every possible secret."
+}

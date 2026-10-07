@@ -1,0 +1,31 @@
+{
+  "seed": 20261002,
+  "epochs": 20,
+  "steps_per_epoch": 152,
+  "batch_size": 9,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "input_size": 448,
+  "threshold": 0.5,
+  "layers": [
+    3,
+    6,
+    9,
+    12
+  ],
+  "sampler": "old_C1",
+  "draw_sha256": "457640139e657d7307b3f2124bf2dd78f25a1bc3eebf212d8a44773561e696e8",
+  "model": "LoRAStudent",
+  "lora": {
+    "target": "all_12_blocks_fused_qkv",
+    "rank": 4,
+    "alpha": 8,
+    "dropout": 0,
+    "learning_rate": 5e-05,
+    "parameters": 73728
+  },
+  "scheduler": null,
+  "trainable_parameters": 541377,
+  "primary_metric": "positive_only_micro_dice",
+  "historical_selection_metric": "positive_image_macro_dice_and_normal_FP_tradeoff"
+}

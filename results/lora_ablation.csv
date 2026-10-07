@@ -1,0 +1,5 @@
+configuration,macro_dice_pct,normal_any_fp,normal_area_fp,normal_mean_fg_pct,empty_positive,selected,metric_scope,source
+All12 LR1e-4,84.87369127514101,10,9,1.1078315701647048,7,False,historical positive-image macro; same internal validation,DINOv2_LoRA_AB_v2/audit/final-comparison.json
+All12 fixed LR5e-5,84.84680067968135,6,3,0.5694653814138005,7,True,historical positive-image macro; same internal validation,DINOv2_LoRA_LR5e5_v1/audit/final-comparison.json
+L7-L12 only,82.64072957543203,7,5,0.5210588032593839,9,False,historical positive-image macro; same internal validation,DINOv2_LoRA_L7L12_v1/audit/final-comparison.json
+Warmup cosine,84.87407459046246,14,12,0.8406474935618308,6,False,historical positive-image macro; same internal validation,DINOv2_LoRA_WarmCos_v1/audit/final-comparison.json

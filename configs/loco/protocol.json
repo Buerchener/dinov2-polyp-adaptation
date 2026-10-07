@@ -1,0 +1,189 @@
+{
+  "status": "PRE_REGISTERED_SINGLE_FRAME_LOCO",
+  "study": "PolypGen_C1_C6_SINGLE_FRAME_LOCO",
+  "seed": 20261002,
+  "encoder": "vit_small_patch14_dinov2.lvd142m",
+  "encoder_state": "completely_frozen",
+  "layers": [
+    3,
+    6,
+    9,
+    12
+  ],
+  "decoder": "retained_DinoStudent_EarlyFusion",
+  "input_size": 448,
+  "threshold_probability": 0.5,
+  "threshold_native_logits": 0,
+  "loss": "valid_region_BCE_plus_soft_Dice",
+  "optimizer": "AdamW",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 9,
+  "epochs": 20,
+  "primary_epoch": 20,
+  "record_epochs": [
+    0,
+    5,
+    10,
+    15,
+    20
+  ],
+  "precision": "FP32",
+  "TF32": false,
+  "scheduler": null,
+  "augmentation": "original_hflip_0.5_vflip_0.5_brightness_uniform_0.9_1.1_contrast_uniform_0.9_1.1",
+  "geometry": "unchanged_RGB_screen_left_crop_letterbox_native_restore",
+  "forbidden": [
+    "DetailSkip",
+    "Hierarchical",
+    "LastBlock_FT",
+    "LoRA",
+    "KD",
+    "EndoDINO"
+  ],
+  "folds": {
+    "C1": {
+      "train_centers": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "test_center": "C1",
+      "fresh_decoder_seed": 20261002,
+      "train_N": 1265,
+      "test_N": 253,
+      "test_positive_N": 248,
+      "train_id_sha256": "a53678e0e7f0d5972a5b0b8707b12709e686eb4d60a43bcedcedfb407aba3978",
+      "test_id_sha256": "89549e97f48ff8bc063413813738ee55947cca9fcba8fa99c2ff97cce89ed35b",
+      "draw_sha256": "ee700bf6613c18d67bf6ec329b896e579e578a2b3e70bc1a7c8dc29cf4be193c"
+    },
+    "C2": {
+      "train_centers": [
+        "C1",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "test_center": "C2",
+      "fresh_decoder_seed": 20261002,
+      "train_N": 1223,
+      "test_N": 295,
+      "test_positive_N": 264,
+      "train_id_sha256": "dfe61089d440fe4c7aa2928d92ecf92c14ef06684d1d172af93b00beef64513d",
+      "test_id_sha256": "a80e53c8f3a460ac80d7cf3ae76dddda3e7e0c03128ec48ad413b0df3bae41a8",
+      "draw_sha256": "2602e0bd06d941efa6d6608e95cea39f64de1a0ed2cf8e66d7cc347b14182c0f"
+    },
+    "C3": {
+      "train_centers": [
+        "C1",
+        "C2",
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "test_center": "C3",
+      "fresh_decoder_seed": 20261002,
+      "train_N": 1064,
+      "test_N": 454,
+      "test_positive_N": 454,
+      "train_id_sha256": "0320257535c0dfb8c36a6409f3104e1e810c313e050f9a3420fba59fc99472b5",
+      "test_id_sha256": "214eb33ace5d5af35950e99513e2e17875de091fb6f9efd0e5a01dc8172505c1",
+      "draw_sha256": "4bcbc7efa196f9e10dad66f8b98e209d09963593abd12f70cabc4408840eb240"
+    },
+    "C4": {
+      "train_centers": [
+        "C1",
+        "C2",
+        "C3",
+        "C5",
+        "C6"
+      ],
+      "test_center": "C4",
+      "fresh_decoder_seed": 20261002,
+      "train_N": 1296,
+      "test_N": 222,
+      "test_positive_N": 141,
+      "train_id_sha256": "76f22a1f575d8348612f3fc2b75b567efa7c3d02f6cc57a706e08c504736b0ac",
+      "test_id_sha256": "a6530f023ddc38105dfbee59d37aadcfbaf9cc3b9ee9d3d447a40f32e064fbd4",
+      "draw_sha256": "e8b6005ff84185a1611693f8b6ad2c061c2dfdcbc62542c5714ee54fe2123018"
+    },
+    "C5": {
+      "train_centers": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C6"
+      ],
+      "test_center": "C5",
+      "fresh_decoder_seed": 20261002,
+      "train_N": 1312,
+      "test_N": 206,
+      "test_positive_N": 204,
+      "train_id_sha256": "f8b5e0e7e05b81a1fe42e85e493db1188c2552cb3178a0213723ddb0b5f80113",
+      "test_id_sha256": "00fb2630bd748ec0ccb9b8a7124917cdd1c40350a6030c706801535db438892b",
+      "draw_sha256": "6d94ae0b1f80f42ee65fc474d15db60e0fcb6c9d07e139d403533a7262134596"
+    },
+    "C6": {
+      "train_centers": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "test_center": "C6",
+      "fresh_decoder_seed": 20261002,
+      "train_N": 1430,
+      "test_N": 88,
+      "test_positive_N": 83,
+      "train_id_sha256": "1503619f1064ce0ab9e0eb0cc3670458e8bfe9973648c0e91317afacb024d18b",
+      "test_id_sha256": "7e1f8a7eda0331dc4e85b720cc7964040f7b3a693289cdcd1f3a1d8f86cd9a7b",
+      "draw_sha256": "70d49563acb0d30599c50b71ccf40afbe4fff2708f56c69d4578ab0cc7400c36"
+    }
+  },
+  "sampling_status": "LOCKED_CPU_VALIDATED_BEFORE_TRAINING",
+  "model_selection": "none_fixed_epoch20",
+  "heldout_access": "no_training_or_tuning_only_fixed_evaluation",
+  "validation": "none_required",
+  "aggregation": {
+    "primary": "center_equal_macro",
+    "std_ddof": 1,
+    "secondary": "image_weighted_pooled",
+    "severe_failure": "Dice<0.5",
+    "area_bins": [
+      0,
+      0.05,
+      0.2,
+      1.01
+    ]
+  },
+  "interpretation": "center_wise_cross_validation_robustness_analysis_C5_C6_previously_observed",
+  "training_authorization_status": "task_authorized_budget_boundaries_pending",
+  "automatic_retries": 0,
+  "audit_status": "PASS_SINGLE_FRAME_SCOPE_WITH_DOCUMENTED_ID_LIMITATIONS",
+  "master_manifest_sha256": "2839676446877a2de3b7295ab62ee25c4024f59f104412ea668bbfabaee5891f",
+  "training_started": false,
+  "data_cleaning": "approved_primary_single_frames_fixed_components",
+  "primary_scope": "1518_clean_single_frames_only",
+  "sequence_primary_N": 0,
+  "steps_per_epoch": 152,
+  "updates_per_fold": 3040,
+  "sampling": {
+    "base_slots": 8,
+    "base_center_allocation": "five_train_centers_cyclic_8_slots_rotating_by_global_step; without_replacement_within_batch",
+    "auxiliary_slots": 1,
+    "auxiliary": "uniform_over_available_training_centers_then_uniform_normal_frame_avoiding_duplicates",
+    "epoch_definition": "152_batches_fixed_for_all_folds_from_retained_baseline; 3040_total_updates_per_fold",
+    "justification": "Retained sampler used 8 center-balanced slots plus 1 normal slot on four centers; five-center LOCO requires cyclic center allocation and a normal source entirely within training centers.",
+    "seed": 20261002
+  },
+  "weight_file": "weights/dinov2_vits14_pretrain.pth",
+  "weight_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+  "initialization": "same_public_weight_file_each_fold; decoder_fresh_seed_20261002; no_fold_checkpoint_transfer",
+  "seq5_mapping_status": "UNRESOLVED_OFFICIAL_MAPPING_AND_SOURCE_FOOTAGE_CONFLICT",
+  "code_version_status": "SHA256_WHITELIST_LOCKED_AFTER_CPU_VALIDATION"
+}

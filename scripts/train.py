@@ -9,7 +9,7 @@ def main():
     p.add_argument('--data-root',type=Path,required=True)
     p.add_argument('--weights',type=Path,required=True)
     p.add_argument('--output',type=Path,required=True)
-    p.add_argument('--arm',choices=['Baseline_Fusion','DetailSkip_Fusion'],default='Baseline_Fusion')
+    p.add_argument('--arm',choices=['Baseline_Fusion','DetailSkip_Fusion','C_LoRA_LR5e5'],default='Baseline_Fusion')
     p.add_argument('--max-seconds',type=int,required=True)
     a=p.parse_args()
     if a.max_seconds<=0:p.error('--max-seconds must be positive')
@@ -20,7 +20,10 @@ def main():
     os.environ['DINO_WEIGHTS']=str(a.weights.resolve())
     os.environ['CUBLAS_WORKSPACE_CONFIG']=':4096:8'
     import torch, timm, numpy, PIL
-    from train_entry import run
+    if a.arm == 'C_LoRA_LR5e5':
+        from lora_train_entry import run
+    else:
+        from train_entry import run
     from full_state import Store
     torch.set_num_threads(4)
     torch.use_deterministic_algorithms(True)
@@ -29,7 +32,7 @@ def main():
     class Context:
         def __init__(self):
             self.work=a.output
-            self.config=json.loads((REPO/'configs/frozen.json').read_text())
+            self.config=json.loads((REPO/('configs/lora_final.json' if a.arm == 'C_LoRA_LR5e5' else 'configs/frozen.json')).read_text())
             self.config.update(arm=a.arm,target_epoch=20,required_evaluations=[0,5,10,15,20])
             lock=hashlib.sha256((REPO/'runtime/public-freeze.json').read_bytes()+json.dumps(self.config,sort_keys=True).encode()).hexdigest()
             self.envelope=dict(experiment_lock=lock)

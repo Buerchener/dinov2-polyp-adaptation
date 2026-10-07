@@ -1,4 +1,4 @@
-"""Evaluate a trusted frozen Fusion checkpoint using the recorded native geometry."""
+"""Evaluate a trusted frozen, LastBlock or final LoRA checkpoint using the recorded native geometry."""
 import argparse, csv, hashlib, json, os, sys
 from pathlib import Path
 REPO=Path(__file__).resolve().parents[1]
@@ -11,6 +11,7 @@ def main():
     p.add_argument('--manifest',type=Path,help='External JSONL manifest; omit for internal validation')
     p.add_argument('--output',type=Path,required=True)
     p.add_argument('--device',choices=['cpu','cuda'],default='cpu')
+    p.add_argument('--model',choices=['frozen','lastblock','lora'],default='frozen')
     p.add_argument('--require-final-lock',action='store_true')
     a=p.parse_args()
     os.environ['POLYP_DATA_ROOT']=str(a.data_root.resolve())
@@ -25,9 +26,12 @@ def main():
     torch.set_num_threads(4);torch.use_deterministic_algorithms(True)
     torch.backends.cuda.matmul.allow_tf32=False;torch.backends.cudnn.allow_tf32=False
     if a.require_final_lock:
-        lock=json.loads((REPO/'configs/final-model-lock.json').read_text())
+        if a.model == 'lastblock': p.error('No published final lock for LastBlock')
+        lock=json.loads((REPO/('configs/lora-final-model-lock.json' if a.model == 'lora' else 'configs/final-model-lock.json')).read_text())
         assert sha(a.checkpoint)==lock['checkpoint']['sha256'],'Wrong final checkpoint'
-    model=DinoStudent(pretrained=False)
+    from lastblock_model import LastBlockStudent
+    from lora_model import LoRAStudent
+    model={'frozen':DinoStudent,'lastblock':LastBlockStudent,'lora':LoRAStudent}[a.model](pretrained=False)
     state=torch.load(a.checkpoint,map_location='cpu',weights_only=True)
     model.load_state_dict(state.get('model',state),strict=True)
     model.requires_grad_(False);model.eval().to(a.device)
@@ -59,7 +63,11 @@ def main():
     result=summary(records,int(state.get('epoch',-1)))
     positives=[r for r in records if r['reference_positive']]
     result['positive_image_mean_iou']=float(np.mean([r['positive_iou'] for r in positives])) if positives else None
+    from micro_metrics import aggregate
+    result.update(aggregate(records))
     result['checkpoint_sha256']=sha(a.checkpoint)
+    result['model']=a.model
+    result['threshold_probability']=0.5
     (a.output/'summary.json').write_text(json.dumps(result,indent=2)+'\n')
     with (a.output/'per-image.csv').open('w',newline='') as f:
         wr=csv.DictWriter(f,fieldnames=list(records[0]));wr.writeheader();wr.writerows(records)

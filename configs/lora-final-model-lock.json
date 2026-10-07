@@ -1,0 +1,9 @@
+{
+  "model": "LoRAStudent",
+  "checkpoint": {
+    "file": "epoch-20.pt",
+    "bytes": 90474733,
+    "sha256": "02f2f32a39160b7bf9c588c8ba93585bb11f58fa2ac9970e7c952a519edbdf4a",
+    "epoch": 20
+  }
+}
