@@ -137,6 +137,8 @@ bash scripts/eval_micro_dice.sh --predictions predictions/predictions-20.zip --d
 
 `--require-final-lock` checks the recorded checkpoint hash. For a newly trained model, omit that flag and label its score as a new run. `eval.py --model lastblock` supports compatible LastBlock checkpoints. Per-image count records allow arithmetic reproduction; full inference requires separately obtained data and checkpoints. Training wrappers preserve computational logic with documented portability edits, but this release did **not** rerun 20-epoch training or reproduce LoRA generalization. Exact scores can vary across environments. [Reproduction scope](docs/reproducibility.md).
 
+For the broader experimental history, distinct model families and unfinished KD work, see [research lineage and current scope](docs/research-lineage.md).
+
 ## Repository structure
 
 ```text

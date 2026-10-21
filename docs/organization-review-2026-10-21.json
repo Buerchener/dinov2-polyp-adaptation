@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-21",
+  "status": "PASS",
+  "experiment_stages": 39,
+  "evidence_references_verified": 62,
+  "local_links": "PASS",
+  "final_table_integer_reaggregation": "5 rows PASS",
+  "original_per_image_hashes": "5 files PASS",
+  "loco_aggregation": "PASS",
+  "KD_pending_status_verified": true,
+  "remote_selected_files_sha256_verified": 36,
+  "remote_small_files_recovered": 6,
+  "remote_recovered_bytes": 323290,
+  "publication_candidate_files": 120,
+  "publication_largest_file_bytes": 1339502,
+  "publication_scan": "common secret/private path/host/assignment patterns; not an exhaustive guarantee",
+  "issues": [],
+  "no_new_training": true,
+  "no_full_inference_rerun": true,
+  "original_experiment_directories_preserved": true
+}
